@@ -11,9 +11,7 @@ int main()
 	cout << "Enter your string: ";
 	cin >> buffer;
 
-	string Compressed = RLEcompress(buffer);
-
-	cout << "Compressed String: " << Compressed << endl;
+	cout << "Compressed String: " << RLEcompress(buffer) << endl;
 
 	for (;;) {}
 }
